@@ -1,0 +1,13 @@
+#Rewrite everything to https
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+SetEnvIfNoCase Referer .*.semalt.com spammer=yes
+SetEnvIfNoCase Referer googlsucks.com spammer=yes
+SetEnvIfNoCase Referer buttons-for-your-website.com spammer=yes
+SetEnvIfNoCase Referer free-share-buttons.com spammer=yes
+SetEnvIfNoCase Referer domination.ml spammer=yes
+SetEnvIfNoCase Referer youporn-forum.uni.me spammer=yes
+Order allow,deny
+Allow from all
+Deny from env=spammer

@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(0, 164, 200);
+  font: 400 1em/1.38 'Roboto Condensed';
+  color: rgb(0,0,0);
+  min-height: 600px;
+}
+
+.container {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  z-index: 5;
+  width: 80%;
+  height: 80%;
+  min-height: 500px;
+}
+
+.container .text {
+  width: 100%;
+  text-align: center;
+}
+
+.text {
+  line-height: 1.20;
+  color: rgb(0,0,0);
+}
+
+._button {
+  display: block;
+  float: left;
+  clear: both;
+  width: 31.40625%;
+  height: 69px;
+  margin-left: 34.53125%;
+  border-radius: 3px;
+  background-color: rgb(222, 222, 222);
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.text-1 {
+  float: right;
+  min-height: 134px;
+  font-size: 4.063em;
+}
+
+.text-2 {
+  float: left;
+  clear: both;
+  min-height: 85px;
+  margin-top: 26px;
+  font-weight: 400;
+}
+
+.text-3 {
+  display: inline-block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 1;
+  margin: -461px 0 0 37.25%;
+  font-weight: 400;
+}

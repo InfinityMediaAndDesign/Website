@@ -1,0 +1,66 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#box {
+    float: left;
+    height: 1080px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    min-width: 0px;
+    min-height: 0px;
+    background-image:url("img/lightslantedbacker.gif");
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 0% 58.1%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#text {
+    float: none;
+    font-size: 100px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 199px;
+    clear: none;
+    min-height: 0px;
+    font-family: open-sans;
+    margin-right: auto;
+}
+
+#text1 {
+    float: none;
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 17px auto;
+    clear: none;
+    min-height: 83px;
+}
+
+#input {
+    float: left;
+    height: 72px;
+    font-size: 1em;
+    margin-left: 34.130809%;
+    margin-top: 14px;
+    clear: none;
+    width: 31.735189%;
+    font-family: open-sans;
+    display: block;
+}
+
