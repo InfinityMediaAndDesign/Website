@@ -23,3 +23,15 @@ AddOutputFilterByType DEFLATE application/xhtml+xml
 AddOutputFilterByType DEFLATE application/rss+xml
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
+#Set file expiries. Feel free to tweak. Remember to clear your cache!
+<IfModule mod_expires.c>
+   ExpiresActive on
+   ExpiresDefault "access plus 1 month"
+   ExpiresByType application/javascript "access plus 1 week"
+   ExpiresByType image/x-ico "access plus 1 week"
+   ExpiresByType image/jpg "access plus 3 days"
+   ExpiresByType image/jpeg "access plus 3 days"
+   ExpiresByType image/gif "access plus 3 days"
+   ExpiresByType image/png "access plus 3 days"
+   ExpiresByType text/css "access plus 3 days"
+</IfModule>
