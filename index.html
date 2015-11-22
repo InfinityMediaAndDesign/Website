@@ -25,7 +25,7 @@ We made this in 3 days, which is impressive, even for us.
   // include loadCSS here...
   function loadCSS( href, before, media )
   // load a file
-  loadCSS( "page 1.css" );
+  loadCSS( "page%201.css" );
         
 </script>
 <noscript><link href="page 1.css" rel="stylesheet"></noscript>
@@ -34,18 +34,24 @@ We made this in 3 days, which is impressive, even for us.
     
     <!--Links to CSS stylesheets-->
 	<link rel="stylesheet" href="boilerplate.css">
-	<link rel="stylesheet" href="page 1.css">
+	<link rel="stylesheet" href="page%201.css">
     
     <!--Meta-->
 	<meta charset="utf-8">
 	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0">
     
-    <!--Adobe reflow management-->
+     <!--Font implementation -->
 	<script>var __adobewebfontsappname__ = "reflow"</script>
-	
-    <!--Font implementation -->
-    <script src="https://use.edgefonts.net/open-sans-condensed:n7,n3,i3:all.js"></script>
-    
+<script type="text/javascript">
+(function() {
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = 'https://use.edgefonts.net/open-sans-condensed:n7,n3,i3:all.js';
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+})();
+</script>
     <!-- Link to the jquery library hosted with Google-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
      
