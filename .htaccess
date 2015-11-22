@@ -13,7 +13,7 @@ Order allow,deny
 Allow from all
 Deny from env=spammer
 #enable gzip compression
-# compress text, html, javascript, css, xml:
+# compress text, html, javascript, css, xml, SVG:
 AddOutputFilterByType DEFLATE text/plain
 AddOutputFilterByType DEFLATE text/html
 AddOutputFilterByType DEFLATE text/xml
@@ -23,6 +23,7 @@ AddOutputFilterByType DEFLATE application/xhtml+xml
 AddOutputFilterByType DEFLATE application/rss+xml
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE image/svg+xml
 #Set file expiries. Feel free to tweak. Remember to clear your cache!
 <IfModule mod_expires.c>
    ExpiresActive on
