@@ -255,11 +255,11 @@
     -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 29px 1px inset;
     box-shadow: rgb(0, 0, 0) 0px 0px 29px 1px inset;
     display: block;
-    background-image:-webkit-linear-gradient(270deg, rgba(255, 255, 255, 0.792157) 0%, rgba(255, 255, 255, 0.439216) 100%),url("img/aboutme.png");
-    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.792157) 0%, rgba(255, 255, 255, 0.439216) 100%), url("img/aboutme.png");
+    background-image: url("img/aboutme.png");
+    background-image: url("img/aboutme.png");
     background-attachment: scroll;
     -webkit-background-size: auto;
-    background-size: auto;
+    background-size: cover;
     background-color: rgb(255, 255, 255);
     background-position: 0% 0%, 50% 50%;
     background-repeat: repeat repeat;
