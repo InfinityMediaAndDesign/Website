@@ -242,6 +242,29 @@
     background-position: 0% 0%, 50% 50%;
     background-repeat: repeat repeat;
 }
+
+#box7 {
+    float: left;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: both;
+    width: 100%;
+    margin-right: 0%;
+    min-height: 320px;
+    -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 29px 1px inset;
+    box-shadow: rgb(0, 0, 0) 0px 0px 29px 1px inset;
+    display: block;
+    background-image: url("img/aboutme.png");
+    background-image: url("img/aboutme.png");
+    background-attachment: scroll;
+    -webkit-background-size: auto;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    background-position: 0% 0%, 50% 50%;
+    background-repeat: repeat repeat;
+}
+
 #disclaimer{
     text-align: center;
     margin-bottom: 20px;
@@ -320,4 +343,3 @@ background-color: #f4f7f8;
     font-family: open-sans-condensed,arial,sans-serif;
     padding: 0px;
 }
-
